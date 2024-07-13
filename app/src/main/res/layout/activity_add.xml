@@ -1,0 +1,69 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical"
+    android:padding="20px"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipe Title :"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed1"
+        android:textColor="@color/black"
+        android:hint="enter title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description :"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed2"
+        android:textColor="@color/black"
+        android:hint="enter description"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Prepared by :"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/ed3"
+        android:hint="enter name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3869E4"
+        android:layout_margin="10px"
+        android:text="Submit"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/sub"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:layout_margin="10px"
+        android:background="#761838"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/back"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFDA6B"
+    android:padding="40px">
+    <ImageView
+        android:layout_width="325dp"
+        android:layout_height="170dp"
+        android:background="@drawable/img1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="76dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Recipe"
+        android:background="#0D6D11"
+        android:textColor="@color/cardview_light_background"
+        android:layout_margin="10px"
+        android:id="@+id/b1"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="Search Recipe"
+        android:textColor="@color/cardview_light_background"
+        android:layout_margin="10px"
+        android:id="@+id/b2"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#761838"
+        android:text="Delete Recipe"
+        android:textColor="@color/cardview_light_background"
+        android:layout_margin="10px"
+        android:id="@+id/b3"/>
+
+</LinearLayout>
